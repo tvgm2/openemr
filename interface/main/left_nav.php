@@ -787,7 +787,7 @@ function removeOptionSelected(EncounterId)
     <ul>
       <li class="open"><span><?php xl('Demographics','e') ?></span>
         <ul>
-          <?php genTreeLink('RTop','new',($GLOBALS['full_new_patient_form'] ? xl('Create New/Search') : xl('New'))); ?>
+          <?php genTreeLink('RTop','new',($GLOBALS['full_new_patient_form'] ? xl('Create New / Search') : xl('New'))); ?>
           <?php genTreeLink('RTop','dem',xl('Current')); ?>
         </ul>
       </li>
@@ -909,7 +909,7 @@ function removeOptionSelected(EncounterId)
   <?php genTreeLink('RBot','msg',xl('Messages')); ?>
   <li class="open"><span><?php xl('Patient/Client','e') ?></span>
     <ul>
-          <?php genTreeLink('RTop','new',($GLOBALS['full_new_patient_form'] ? xl('Create New/Search') : xl('New'))); ?>
+          <?php genTreeLink('RTop','new',($GLOBALS['full_new_patient_form'] ? xl('Create New / Search') : xl('New'))); ?>
           <?php genTreeLink('RTop','dem',xl('Summary')); ?>
       <li class="open"><span><?php xl('Visits','e') ?></span>
         <ul>
